@@ -23,7 +23,7 @@ A powerful web-based network monitoring and diagnostic tool built with Flask. Ne
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/amanjaiswal1818/Netpulse.git
-cd netpulse
+cd Netpulse
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -302,5 +302,6 @@ Monitor your system's health in real-time:
 - CPU usage percentage
 - RAM usage percentage
 - System temperature (Raspberry Pi supported)
+
 
 **API Endpoint:** `
