@@ -1,0 +1,6 @@
+Flask
+psutil
+speedtest-cli
+wakeonlan
+scapy
+mac-vendor-lookup

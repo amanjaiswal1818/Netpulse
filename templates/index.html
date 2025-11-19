@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetPulse Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>NetPulse Dashboard</h1>
+        <div class="controls">
+            <input type="text" id="host-input" placeholder="Enter host (e.g., 8.8.8.8)">
+            <button id="ping-btn">Ping</button>
+            <button id="nmap-btn">Nmap Scan</button>
+            <button id="speedtest-btn">Speed Test</button>
+        </div>
+        <div class="controls">
+            <input type="text" id="mac-input" placeholder="Enter MAC address (e.g., 00:11:22:33:44:55)">
+            <button id="wol-btn">WoL</button>
+        </div>
+        <pre id="output-box">Output will appear here...</pre>
+        <div id="sys-info">Loading system info...</div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
